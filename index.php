@@ -31,7 +31,7 @@
 
 		<?php 
 			// Set client parameters
-			appClient('192.168.2.131', '9001', 'sqrt', gethostbyname(exec('hostname')));
+			appClient('192.168.2.134', '9001', 'sqrt', gethostbyname(exec('hostname')));
 		?>
 	</body>
 </html>		
