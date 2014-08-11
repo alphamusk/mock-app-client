@@ -31,7 +31,7 @@
 
 		<?php 
 			// Set client parameters
-			appClient('internal-lb-itcloudarchitect-app-2023688693.us-west-2.elb.amazonaws.com', '9001', 'sqrt', gethostbyname(exec('hostname')));
+			appClient('lb-app.itcloudarchitect.com', '9001', 'sqrt', gethostbyname(exec('hostname')));
 		?>
 	</body>
 </html>		
