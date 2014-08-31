@@ -31,7 +31,9 @@
 
 		<?php 
 			// Set client parameters
-			appClient('lb-app.itcloudarchitect.com', '9001', 'sqrt', gethostbyname(exec('hostname')));
+			//appClient('lb-app.itcloudarchitect.com', '9001', 'sqrt', gethostbyname(exec('hostname')));
+			appClient('localhost', '9000', $_GET['sym'], gethostbyname(exec('hostname')));
+			
 		?>
 	</body>
 </html>		
